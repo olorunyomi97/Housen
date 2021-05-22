@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
+// import Button from 'react-bootstrap/Button';
 
 class Navbar extends Component {
     render() {
@@ -33,6 +33,7 @@ class Navbar extends Component {
                             </ul>
                             {/* <Button variant="outline-success pr-5 pl-5 pb-1 pt-1" to="/register">Sign Up</Button> */}
                             <Link className="btn btn-lg btn-success pr-5 pl-5 mt-2" to="/register">Sign Up</Link>
+                            <Link className="btn btn-lg btn-info pr-5 pl-5 mt-2 ml-3" to="/login">Login</Link>
                         </div>
                     </div>
                 </nav>
