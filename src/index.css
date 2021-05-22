@@ -1,0 +1,55 @@
+
+body {
+  margin: 0;
+  font-family: Proza Libre;
+  font-style: normal;
+
+}
+.housen {
+  font-weight: bolder;
+  color: green
+}
+.font {
+  font-size: large;
+  font-weight: bold;
+  list-style-type: none;
+}
+.landing {
+  position: relative;
+  /* background: url('./img/reacts.png') no-repeat; */
+  background-color: #F5F5F5;
+  background-size: cover;
+  background-position: center;
+  /* height: 70vh; */
+  /* margin-top: -24px;
+  margin-bottom: -50px; */
+}
+.card-section{
+  background-color: #F5F5F5;
+}
+.ideal{
+  margin-top: 100px;
+}
+.display-5{
+  margin-bottom:30px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.lead {
+  font-size: 20px;
+  font-weight: bold;
+}
+.calabasas {
+  font-weight: bold;
+}
+.float-right{
+  color: grey;
+}
+.card {
+  border: none;
+}
+.register {
+  margin-top: 100px;
+  padding-bottom: 250px;
+}
