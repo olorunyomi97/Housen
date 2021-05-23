@@ -23,9 +23,16 @@ class Landing extends Component {
                                 <div class="input-group-prepend">
                                     <span class="input-group-text" id="basic-addon1"><img src={logo} width="30px" height="30px" alt="logo" /></span>
                                 </div>
-                                <input type="text" class="form-control p-3" placeholder="Search for Address" aria-describedby="basic-addon1"/>
-                                <div class="input-group-append">
-                                    <Button variant="outline-success pr-3 pl-3">Search</Button>                        
+                                <div>
+                                    <div class="buttonIn">
+                                        <input type="text" id="enter" placeholder="Search for Address"/>
+                                        <button id="clear">Search</button>
+                                    </div>
+                                    {/* <input type="text" class="form-control p-3 buttonIn" placeholder="Search for Address" aria-describedby="basic-addon1"/>
+                                    <button id="clear">clear</button> */}
+                                    {/* <div class="input-group-append">
+                                        <Button variant="outline-success pr-3 pl-3">Search</Button>                        
+                                    </div> */}
                                 </div>
                             </div>
                             <div className="col-md-2"></div>
