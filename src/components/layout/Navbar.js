@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/button'
+// import Button from 'react-bootstrap/button'
 
 class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-sm bg-light  pb-3">
+                <nav className="navbar navbar-expand-sm pb-3">
                     <div className="container">
-                        <Link className="navbar-brand mt-3 housen housen" to="/">housen</Link>
+                        <Link className="navbar-brand mt-3 housen" to="/">housen</Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                             <span className="navbar-toggler-icon"></span>
                         </button>

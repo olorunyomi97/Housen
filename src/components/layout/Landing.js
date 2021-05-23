@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button } from "react-bootstrap";
+// import { Button } from "react-bootstrap";
 import logo from '../../img/glass.png'
 
 class Landing extends Component {
@@ -25,7 +25,7 @@ class Landing extends Component {
                                 </div>
                                 <div>
                                     <div class="buttonIn">
-                                        <input type="text" id="enter" placeholder="Search for Address"/>
+                                        <input type="text" id="enter" placeholder="Search"/>
                                         <button id="clear">Search</button>
                                     </div>
                                     {/* <input type="text" class="form-control p-3 buttonIn" placeholder="Search for Address" aria-describedby="basic-addon1"/>
