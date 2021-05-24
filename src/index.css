@@ -1,8 +1,13 @@
 
 body {
   margin: 0;
-  font-family: Proza Libre;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
+  background-color: #F6F6F6;
+  /* border: 80px solid #4c25b8;
+  box-shadow: 0 0 0 65px #4c25b8; */
+  /* background: url('./img/reacts.png') no-repeat; */
+
 
 }
 
@@ -10,38 +15,40 @@ body {
   font-size: large;
   font-weight: bold;
   list-style-type: none;
+  color: gray;
 }
 .landing {
   position: relative;
-  /* background: url('./img/reacts.png') no-repeat; */
-  background-color: #F5F5F5;
   background-size: cover;
   background-position: center;
   /* height: 70vh; */
   /* margin-top: -24px;
   margin-bottom: -50px; */
 }
-.card-section{
-  background-color: #F5F5F5;
-}
 .ideal{
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .display-5{
   margin-bottom:30px;
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 75px;
 }
 
 .lead {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
+  color: #616161;
 }
 .calabasas {
-  font-weight: bold;
+  /* font-weight: bolder; */
+  font-size: 20px;
 }
-.float-right{
+.apartment{
   color: grey;
+  font-size: 18px;
+  font-weight: 200px;
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 2px;
 }
 .card {
   border: none;
@@ -56,22 +63,23 @@ body {
 }
 .housen {
   font-family: 'Ubuntu', sans-serif;
-  font-size:40px ;
+  font-size:50px ;
   font-weight: bolder;
-  color: #8E70FC;
+  color: #4c25b8;
 }
 .housen:hover {
-  color: #8E70FC;
+  color: #4c25b8;
 }
 .signup{ 
-  color: #8E70FC;
+  color: #4c25b8;
   background-color:white;
-  border:1px solid #8E70FC;
+  border:3px solid #4c25b8;
+  border-radius: 3px;
   text-decoration-color: none;
 
 }
 .signup:hover {
-  color: #8E70FC;
+  color: #4c25b8;
 }
 
 .buttonIn {
@@ -89,17 +97,25 @@ input {
 }
 
 button {
-  position: absolute;
-  right: -355px;
   z-index: 2;
   border: none;
-  top: 5px;
   height: 40px;
   width: 150px;
   cursor: pointer;
   color: white;
-  background-color: #8E70FC;
+  background-color: #4c25b8;
   transform: translateX(2px);
+  margin-left: 150px;
 }
 
-
+footer {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.search {
+  color: gray;
+}
+.CA {
+  background-color: #f9f9f9;
+}

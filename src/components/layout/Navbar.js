@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import Button from 'react-bootstrap/button'
 
 class Navbar extends Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-sm pb-3">
-                    <div className="container">
-                        <Link className="navbar-brand mt-3 housen" to="/">housen</Link>
+                <nav className="navbar navbar-expand-sm pb-5">
+                    <div className="container mt-0">
+                        <Link className="navbar-brand housen" to="/">housen</Link>
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
                             <span className="navbar-toggler-icon"></span>
                         </button>
@@ -28,12 +27,10 @@ class Navbar extends Component {
                                     <Link className="nav-link text-dark mr-5" to="/register">Rent a house</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link text-dark" to="/login">Mortage</Link>
+                                    <Link className="nav-link text-dark" to="/login">Mortgage</Link>
                                 </li>
                             </ul>
-                            {/* <Button variant="signup pr-5 pl-5 pb-1 pt-1" to="/register">Sign Up</Button> */}
-                            <Link className="signup btn btn-lg pr-5 pl-5 mt-2" to="/register">Sign Up</Link>
-                            {/* <Link className="btn btn-lg btn-info pr-5 pl-5 mt-2 ml-3" to="/login">Login</Link> */}
+                            <Link className="signup btn btn-lg pr-5 pl-5 mt-2" to="/register">sign up</Link>
                         </div>
                     </div>
                 </nav>
